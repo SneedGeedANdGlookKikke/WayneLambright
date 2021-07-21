@@ -3,4 +3,4 @@ USER root
 
 RUN sudo add-apt-repository ppa:pypy/ppa
 RUN sudo apt update
-RUN sudo apt install pypy3
+RUN sudo apt install pypy3 -y
